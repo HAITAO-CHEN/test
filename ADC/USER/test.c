@@ -65,6 +65,7 @@ int main(void)
 		LCD_ShowxNum(172,180,temp2,3,16,0X80);
 //		printf("当前电压为：%dV",&adcx);
 		LED0=!LED0;
+		LED1=!LED1;
 		delay_ms(250);	
 	}
 }
