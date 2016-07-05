@@ -67,6 +67,7 @@ int main(void)
 		LED0=!LED0;
 		LED1=!LED1;
 		delay_ms(250);	
+		delay_ms(350);
 	}
 }
 
